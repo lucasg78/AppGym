@@ -54,7 +54,7 @@ ROOT_URLCONF = 'AppGym.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r"G:\Mi unidad\Formación\Programación\Python\Práctica\AppGym\AppGym\AppGym\plantillas"],
+        'DIRS': [r"G:\Mi unidad\Formación\Programación\Python\Práctica\AppGym\AppGym\AppGym\templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

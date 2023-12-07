@@ -5,7 +5,7 @@ from django.template import Context, Template, loader
 
 def vista_plantilla(request):
     # Abrimos el archivo
-    archivo = open(r"G:\Mi unidad\Formación\Programación\Python\Práctica\AppGym\AppGym\AppGym\plantillas\inicio.html")
+    archivo = open(r"G:\Mi unidad\Formación\Programación\Python\Práctica\AppGym\AppGym\AppGym\templates\inicio.html")
     
     # Creamos el objeto "plantilla"
     plantilla = Template(archivo.read())
@@ -34,7 +34,7 @@ def vista_plantilla(request):
 # ALTERNATIVA 1: CONTEXT
 def vista_listado_alumnos(request):
     # Abrimos el archivo
-    archivo = open(r"G:\Mi unidad\Formación\Programación\Python\Práctica\AppGym\AppGym\AppGym\plantillas\listado_alumnos.html")
+    archivo = open(r"G:\Mi unidad\Formación\Programación\Python\Práctica\AppGym\AppGym\AppGym\templates\listado_alumnos.html")
     
     # Creamos el template
     plantilla = Template(archivo.read())
