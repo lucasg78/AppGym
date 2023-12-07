@@ -19,3 +19,15 @@ def vista_listado_profesores(request):
         cadena_respuesta += f"Profesor: {profesor.nombre} {profesor.apellido}" + " " +"<br/>"
     
     return HttpResponse(cadena_respuesta) 
+
+def inicio(request):
+    return HttpResponse("Estás en el inicio")
+
+def clases(request):
+    return HttpResponse("Estás en clases")
+
+def profesores(request):
+    return HttpResponse("Estás en profesores")
+
+def alumnos(request):
+    return HttpResponse("Estás en alumnos")
